@@ -11,9 +11,9 @@ class XorShift {
 
     public function __construct($seed = null)
     {
-        $this->x = 123456789;
-        $this->y = 987654321;
-        $this->z = 754312235;
+        $this->x = 715225739;
+        $this->y = 838041647;
+        $this->z = 179424691;
 
         if ($seed) {
             $this->w = $seed;
