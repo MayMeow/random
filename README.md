@@ -1,6 +1,6 @@
 # Random
 
-I was need pseudo generator which for seed return stil same values.
+I needed pseudo generator which for given seed return stil same values.
 
 ## Installation
 
