@@ -1,0 +1,18 @@
+{
+    "name": "asunay/random",
+    "description": "Pseudo random generator library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Charlotta Jung",
+            "email": "jungcharlotta@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AsunaY\\": "src"
+        }
+    },
+    "require": {}
+}
