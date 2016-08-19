@@ -20,11 +20,7 @@ class XorShift
         $this->y = 838041647;
         $this->z = 179424691;
 
-        if ($seed) {
-            $this->w = $seed;
-        } else {
-            $this->w = 88675123;
-        }
+        $this->w = $seed !== null ? $seed : mt_rand();
     }
 
     /**
