@@ -14,4 +14,3 @@ $xs = new XorShift(time());
 for ($i = 1; $i <= 10; $i++) {
     echo $xs->getRand($min, $max) . "\n";
 }
-
