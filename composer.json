@@ -15,4 +15,7 @@
         }
     },
     "require": {}
+    "replace": {
+        "asunay/random":"*"
+    }
 }
