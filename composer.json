@@ -14,7 +14,7 @@
             "AsunaY\\": "src"
         }
     },
-    "require": {}
+    "require": {},
     "replace": {
         "asunay/random":"*"
     }
